@@ -71,3 +71,11 @@ C:\Users\ffalv\source\repos\Grupo-C\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.cspr
 C:\Users\ffalv\source\repos\Grupo-C\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.dll
 C:\Users\ffalv\source\repos\Grupo-C\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.pdb
 C:\Users\ffalv\source\repos\Grupo-C\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.genruntimeconfig.cache
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.csproj.AssemblyReference.cache
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.GeneratedMSBuildEditorConfig.editorconfig
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.AssemblyInfoInputs.cache
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.AssemblyInfo.cs
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.csproj.CoreCompileInputs.cache
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.MvcApplicationPartsAssemblyInfo.cache
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.dll
+E:\UCB\ProyWebGrupoC\Grupo-C\obj\Debug\netcoreapp3.1\Grupo-C.pdb

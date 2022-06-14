@@ -11,3 +11,10 @@ C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.dl
 C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.pdb
 C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.genruntimeconfig.cache
 C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.csproj.AssemblyReference.cache
+E:\UCB\ProyWebGrupoC\DataBase\obj\Debug\netcoreapp3.1\DataBase.csproj.AssemblyReference.cache
+E:\UCB\ProyWebGrupoC\DataBase\obj\Debug\netcoreapp3.1\DataBase.GeneratedMSBuildEditorConfig.editorconfig
+E:\UCB\ProyWebGrupoC\DataBase\obj\Debug\netcoreapp3.1\DataBase.AssemblyInfoInputs.cache
+E:\UCB\ProyWebGrupoC\DataBase\obj\Debug\netcoreapp3.1\DataBase.AssemblyInfo.cs
+E:\UCB\ProyWebGrupoC\DataBase\obj\Debug\netcoreapp3.1\DataBase.csproj.CoreCompileInputs.cache
+E:\UCB\ProyWebGrupoC\DataBase\obj\Debug\netcoreapp3.1\DataBase.dll
+E:\UCB\ProyWebGrupoC\DataBase\obj\Debug\netcoreapp3.1\DataBase.pdb
