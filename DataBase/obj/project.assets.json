@@ -5798,19 +5798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ffalv\\.nuget\\packages\\": {}
+    "C:\\Users\\dougl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\DataBase\\DataBase.csproj",
+      "projectUniqueName": "E:\\UCB\\ProyWebGrupoC\\DataBase\\DataBase.csproj",
       "projectName": "DataBase",
-      "projectPath": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\DataBase\\DataBase.csproj",
-      "packagesPath": "C:\\Users\\ffalv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\DataBase\\obj\\",
+      "projectPath": "E:\\UCB\\ProyWebGrupoC\\DataBase\\DataBase.csproj",
+      "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
+      "outputPath": "E:\\UCB\\ProyWebGrupoC\\DataBase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ffalv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5866,7 +5866,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
