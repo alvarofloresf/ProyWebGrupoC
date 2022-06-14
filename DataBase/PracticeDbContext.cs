@@ -11,7 +11,11 @@ namespace DataBase
     {
         private IConfiguration _configuration;
         public DbSet<Sponsor> Sponsor { get; set; }
+<<<<<<< HEAD
         public DbSet<Campaign> Campaign { get; set; }
+=======
+        public DbSet<Campaign> Campaing { get; set; }
+>>>>>>> DouglasMain
 
         public PracticeDbContext(IConfiguration configuration)
         {

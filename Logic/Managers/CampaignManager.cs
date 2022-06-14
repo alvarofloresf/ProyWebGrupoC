@@ -31,6 +31,7 @@ namespace Logic.Managers
             }
             return mappedCampaigns;
         }
+<<<<<<< HEAD
         public List<Logic.Models.Campaign> GetActiveCampaign()
         {
             List<DataBase.Models.Campaign> campaignsFromDB = _uow.CampaignRepository.GetAllCampains().Result;
@@ -53,6 +54,9 @@ namespace Logic.Managers
             }
             return activeCampaign;
         }
+=======
+
+>>>>>>> DouglasMain
         public Logic.Models.Campaign CreateCampaign(Logic.Models.Campaign campaign)
         {
             DataBase.Models.Campaign campaignToCreate = new DataBase.Models.Campaign()
@@ -62,6 +66,7 @@ namespace Logic.Managers
                 TypeCampaign = campaign.TypeCampaign,
                 DescriptionCampaign = campaign.DescriptionCampaign,
                 CustomerSponsor = campaign.CustomerSponsor,
+<<<<<<< HEAD
                 //Enable = 0
             };
             if (campaignToCreate.TypeCampaign == "Navidad" || campaignToCreate.TypeCampaign == "navidad" || campaignToCreate.TypeCampaign == "NAVIDAD")
@@ -82,6 +87,12 @@ namespace Logic.Managers
                 _uow.CampaignRepository.CreateCampaign(campaignToCreate);
                 _uow.Save();
             }
+=======
+                Enable = 0
+            };
+            _uow.CampaignRepository.CreateCampaign(campaignToCreate);
+            _uow.Save();
+>>>>>>> DouglasMain
 
             return new Logic.Models.Campaign()
             {
@@ -90,7 +101,11 @@ namespace Logic.Managers
                 TypeCampaign = campaignToCreate.TypeCampaign,
                 DescriptionCampaign = campaignToCreate.DescriptionCampaign,
                 CustomerSponsor = campaignToCreate.CustomerSponsor,
+<<<<<<< HEAD
                 Enable = 0
+=======
+                //Enable = 0
+>>>>>>> DouglasMain
             };
         }
         public Logic.Models.Campaign UpdateCampaign(Logic.Models.Campaign campaign)
@@ -114,6 +129,7 @@ namespace Logic.Managers
                 CustomerSponsor = campaignToUpdate.CustomerSponsor,
             };
         }
+<<<<<<< HEAD
         public Logic.Models.Campaign EnableDisableCampaign(Guid campaignId)
         {
             DataBase.Models.Campaign campaignToUpdate = _uow.CampaignRepository.GetCampaignById(campaignId);
@@ -123,14 +139,31 @@ namespace Logic.Managers
                 campaignToUpdate.Enable = 1;
                 _uow.CampaignRepository.UpdateCampaign(campaignToUpdate);
                 _uow.Save();
+=======
+        public Logic.Models.Campaign EnableDisableCampaign(Logic.Models.Campaign campaign)
+        {
+            DataBase.Models.Campaign campaignToUpdate = _uow.CampaignRepository.GetCampaignById(campaign.Id);
+
+            if(campaign.Enable == 0)
+            {
+                campaignToUpdate.Enable = 1;
+>>>>>>> DouglasMain
             }
             else
             {
                 campaignToUpdate.Enable = 0;
+<<<<<<< HEAD
                 _uow.CampaignRepository.UpdateCampaign(campaignToUpdate);
                 _uow.Save();
             }
             
+=======
+            }
+            
+            _uow.CampaignRepository.UpdateCampaign(campaignToUpdate);
+            _uow.Save();
+
+>>>>>>> DouglasMain
             return new Logic.Models.Campaign()
             {
                 Id = campaignToUpdate.Id,
