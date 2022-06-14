@@ -41,7 +41,7 @@ namespace Logic.Managers
                 TypeCampaign = campaign.TypeCampaign,
                 DescriptionCampaign = campaign.DescriptionCampaign,
                 CustomerSponsor = campaign.CustomerSponsor,
-                Enable = 0
+                //Enable = 0
             };
             _uow.CampaignRepository.CreateCampaign(campaignToCreate);
             _uow.Save();
@@ -53,7 +53,7 @@ namespace Logic.Managers
                 TypeCampaign = campaignToCreate.TypeCampaign,
                 DescriptionCampaign = campaignToCreate.DescriptionCampaign,
                 CustomerSponsor = campaignToCreate.CustomerSponsor,
-                //Enable = 0
+                Enable = 0
             };
         }
         public Logic.Models.Campaign UpdateCampaign(Logic.Models.Campaign campaign)
