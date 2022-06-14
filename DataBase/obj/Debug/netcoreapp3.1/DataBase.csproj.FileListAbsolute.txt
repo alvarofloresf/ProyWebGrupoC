@@ -10,3 +10,4 @@ C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.cs
 C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.dll
 C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.pdb
 C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.genruntimeconfig.cache
+C:\Users\ffalv\source\repos\Grupo-C\DataBase\obj\Debug\netcoreapp3.1\DataBase.csproj.AssemblyReference.cache

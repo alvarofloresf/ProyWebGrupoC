@@ -35,6 +35,7 @@ namespace Grupo_C
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<SponsorManager>();
+            services.AddTransient<CampaignManager>();
             services.AddTransient<RestaurantService>();
             services.AddScoped<UnitOfWork>();
             services.AddDbContext<PracticeDbContext>();
