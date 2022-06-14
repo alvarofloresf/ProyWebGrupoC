@@ -23,6 +23,12 @@ namespace Grupo_C.Controllers
         {
             return Ok(_campaignManager.GetCampaigns());
         }
+        [HttpGet]
+        [Route("is/Active")]
+        public IActionResult GetActiveCampaign()
+        {
+            return Ok(_campaignManager.GetActiveCampaign());
+        }
 
         [HttpPost]
         public IActionResult CreateCampaign([FromBody] Logic.Models.Campaign campaign)
@@ -44,10 +50,10 @@ namespace Grupo_C.Controllers
         }
 
         [HttpPut]
-        [Route("/enableOrDisableCampaign")]
-        public IActionResult EnableCampaig([FromBody] Logic.Models.Campaign campaign)
+        [Route("/enableOrDisableCampaign/{campaignId}")]
+        public IActionResult EnableCampaig(Guid campaignId)
         {
-            return Ok(_campaignManager.EnableDisableCampaign(campaign));
+            return Ok(_campaignManager.EnableDisableCampaign(campaignId));
         }
     }
 }

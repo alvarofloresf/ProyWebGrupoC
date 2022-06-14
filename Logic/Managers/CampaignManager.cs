@@ -31,7 +31,28 @@ namespace Logic.Managers
             }
             return mappedCampaigns;
         }
-
+        public List<Logic.Models.Campaign> GetActiveCampaign()
+        {
+            List<DataBase.Models.Campaign> campaignsFromDB = _uow.CampaignRepository.GetAllCampains().Result;
+            List<Logic.Models.Campaign> activeCampaign = new List<Logic.Models.Campaign>();
+            
+            foreach (DataBase.Models.Campaign campaign in campaignsFromDB)
+            {
+                if (campaign.Enable == 1)
+                {
+                    activeCampaign.Add(new Logic.Models.Campaign()
+                    {
+                        Id = campaign.Id,
+                        NameCampaign = campaign.NameCampaign,
+                        TypeCampaign = campaign.TypeCampaign,
+                        DescriptionCampaign = campaign.DescriptionCampaign,
+                        CustomerSponsor = campaign.CustomerSponsor,
+                        Enable = campaign.Enable
+                    });
+                }
+            }
+            return activeCampaign;
+        }
         public Logic.Models.Campaign CreateCampaign(Logic.Models.Campaign campaign)
         {
             DataBase.Models.Campaign campaignToCreate = new DataBase.Models.Campaign()
@@ -43,8 +64,24 @@ namespace Logic.Managers
                 CustomerSponsor = campaign.CustomerSponsor,
                 //Enable = 0
             };
-            _uow.CampaignRepository.CreateCampaign(campaignToCreate);
-            _uow.Save();
+            if (campaignToCreate.TypeCampaign == "Navidad" || campaignToCreate.TypeCampaign == "navidad" || campaignToCreate.TypeCampaign == "NAVIDAD")
+            {
+                campaignToCreate.TypeCampaign = "XMAS";
+                _uow.CampaignRepository.CreateCampaign(campaignToCreate);
+                _uow.Save();
+            }
+            if (campaignToCreate.TypeCampaign == "Verano" || campaignToCreate.TypeCampaign == "verano" || campaignToCreate.TypeCampaign == "VERANO")
+            {
+                campaignToCreate.TypeCampaign = "SUMMER";
+                _uow.CampaignRepository.CreateCampaign(campaignToCreate);
+                _uow.Save();
+            }
+            if (campaignToCreate.TypeCampaign == "Black Friday" || campaignToCreate.TypeCampaign == "BLACK FRIDAY")
+            {
+                campaignToCreate.TypeCampaign = "BRIDAY";
+                _uow.CampaignRepository.CreateCampaign(campaignToCreate);
+                _uow.Save();
+            }
 
             return new Logic.Models.Campaign()
             {
@@ -77,22 +114,23 @@ namespace Logic.Managers
                 CustomerSponsor = campaignToUpdate.CustomerSponsor,
             };
         }
-        public Logic.Models.Campaign EnableDisableCampaign(Logic.Models.Campaign campaign)
+        public Logic.Models.Campaign EnableDisableCampaign(Guid campaignId)
         {
-            DataBase.Models.Campaign campaignToUpdate = _uow.CampaignRepository.GetCampaignById(campaign.Id);
+            DataBase.Models.Campaign campaignToUpdate = _uow.CampaignRepository.GetCampaignById(campaignId);
 
-            if(campaign.Enable == 0)
+            if(campaignToUpdate.Enable == 0)
             {
                 campaignToUpdate.Enable = 1;
+                _uow.CampaignRepository.UpdateCampaign(campaignToUpdate);
+                _uow.Save();
             }
             else
             {
                 campaignToUpdate.Enable = 0;
+                _uow.CampaignRepository.UpdateCampaign(campaignToUpdate);
+                _uow.Save();
             }
             
-            _uow.CampaignRepository.UpdateCampaign(campaignToUpdate);
-            _uow.Save();
-
             return new Logic.Models.Campaign()
             {
                 Id = campaignToUpdate.Id,
