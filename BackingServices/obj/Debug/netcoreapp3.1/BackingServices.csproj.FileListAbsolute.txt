@@ -10,6 +10,10 @@ C:\Users\ffalv\source\repos\Grupo-C\BackingServices\obj\Debug\netcoreapp3.1\Back
 E:\UCB\ProyWebGrupoC\BackingServices\bin\Debug\netcoreapp3.1\BackingServices.deps.json
 E:\UCB\ProyWebGrupoC\BackingServices\bin\Debug\netcoreapp3.1\BackingServices.dll
 E:\UCB\ProyWebGrupoC\BackingServices\bin\Debug\netcoreapp3.1\BackingServices.pdb
+<<<<<<< Updated upstream
+=======
+E:\UCB\ProyWebGrupoC\BackingServices\obj\Debug\netcoreapp3.1\BackingServices.csproj.AssemblyReference.cache
+>>>>>>> Stashed changes
 E:\UCB\ProyWebGrupoC\BackingServices\obj\Debug\netcoreapp3.1\BackingServices.GeneratedMSBuildEditorConfig.editorconfig
 E:\UCB\ProyWebGrupoC\BackingServices\obj\Debug\netcoreapp3.1\BackingServices.AssemblyInfoInputs.cache
 E:\UCB\ProyWebGrupoC\BackingServices\obj\Debug\netcoreapp3.1\BackingServices.AssemblyInfo.cs
