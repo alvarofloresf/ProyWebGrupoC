@@ -11,7 +11,7 @@ namespace DataBase
     {
         private IConfiguration _configuration;
         public DbSet<Sponsor> Sponsor { get; set; }
-        //public DbSet<Campaign> Campaing { get; set; }
+        public DbSet<Campaign> Campaing { get; set; }
 
         public PracticeDbContext(IConfiguration configuration)
         {
