@@ -9,7 +9,7 @@ namespace DataBase
     {
         private PracticeDbContext _context;
         private SponsorRepository _sponsorRepository;
-        //private CampaignRepository _campaignRepository;
+        private CampaignRepository _campaignRepository;
 
         public SponsorRepository SponsorRepository
         {
@@ -19,19 +19,19 @@ namespace DataBase
             }
         }
 
-        /*public CampaignRepository CampaignRepository
+        public CampaignRepository CampaignRepository
         {
             get
             {
                 return _campaignRepository;
             }
-        }*/
+        }
 
         public UnitOfWork(PracticeDbContext context)
         {
             _context = context;
             _sponsorRepository = new SponsorRepository(_context);
-            //_campaignRepository = new CampaignRepository(_context);
+            _campaignRepository = new CampaignRepository(_context);
         }
 
         public void BeginTransaction()
