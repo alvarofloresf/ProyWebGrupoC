@@ -5564,19 +5564,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ffalv\\.nuget\\packages\\": {}
+    "C:\\Users\\dougl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\Grupo-C\\Grupo-C.csproj",
+      "projectUniqueName": "E:\\UCB\\ProyWebGrupoC\\Grupo-C\\Grupo-C.csproj",
       "projectName": "Grupo-C",
-      "projectPath": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\Grupo-C\\Grupo-C.csproj",
-      "packagesPath": "C:\\Users\\ffalv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\Grupo-C\\obj\\",
+      "projectPath": "E:\\UCB\\ProyWebGrupoC\\Grupo-C\\Grupo-C.csproj",
+      "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
+      "outputPath": "E:\\UCB\\ProyWebGrupoC\\Grupo-C\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ffalv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5590,8 +5590,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\Logic\\Logic.csproj": {
-              "projectPath": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\Logic\\Logic.csproj"
+            "E:\\UCB\\ProyWebGrupoC\\Logic\\Logic.csproj": {
+              "projectPath": "E:\\UCB\\ProyWebGrupoC\\Logic\\Logic.csproj"
             }
           }
         }
@@ -5641,7 +5641,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

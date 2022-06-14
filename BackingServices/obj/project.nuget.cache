@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UQfZzaOkL8ODDEsi5h3KY+UWJallZ9Y9ebAC0J+zfEhcj9tBNmEgxYSNIG24ZjLDKEC6wjWb3LPU3xN1FkEYCQ==",
+  "dgSpecHash": "ZPMZarhAnn+1QK4SXbQ7oiGaNzxCtLBSaMjCIt6CwKGMKcgGmU14YIdENg9FA94c6n9WlVFVBdKVM1j3+Mfg2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\BackingServices\\BackingServices.csproj",
+  "projectFilePath": "E:\\UCB\\ProyWebGrupoC\\BackingServices\\BackingServices.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ffalv\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\dougl\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
