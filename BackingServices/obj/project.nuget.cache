@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UQfZzaOkL8ODDEsi5h3KY+UWJallZ9Y9ebAC0J+zfEhcj9tBNmEgxYSNIG24ZjLDKEC6wjWb3LPU3xN1FkEYCQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ffalv\\source\\repos\\Grupo-C\\BackingServices\\BackingServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ffalv\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

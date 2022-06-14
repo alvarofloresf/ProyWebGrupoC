@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupo-C", "Grupo-C\Grupo-C.csproj", "{A34BF4CB-2CBA-4C4B-A221-2BED67EDD8EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Logic", "02-Logic", "{2E87E97F-BBC4-4B04-BD5A-52EBDF726172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{3C2F1242-E7AE-4E69-9DFB-FFDE694CBE77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Backingservices", "03-Backingservices", "{5080326D-FA17-4146-9409-359B4605B323}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-DataBase", "04-DataBase", "{E18246C1-CE15-4FB8-B9BE-0EDA30B41D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{EB77EA00-6973-47D5-B3AB-267FAFECD11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackingServices", "BackingServices\BackingServices.csproj", "{445DE05F-C312-4CF6-B4C7-700953731EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{69E0521F-7F96-4868-86F7-9A76AF4A7FDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34BF4CB-2CBA-4C4B-A221-2BED67EDD8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34BF4CB-2CBA-4C4B-A221-2BED67EDD8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34BF4CB-2CBA-4C4B-A221-2BED67EDD8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34BF4CB-2CBA-4C4B-A221-2BED67EDD8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB77EA00-6973-47D5-B3AB-267FAFECD11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB77EA00-6973-47D5-B3AB-267FAFECD11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB77EA00-6973-47D5-B3AB-267FAFECD11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB77EA00-6973-47D5-B3AB-267FAFECD11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445DE05F-C312-4CF6-B4C7-700953731EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445DE05F-C312-4CF6-B4C7-700953731EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445DE05F-C312-4CF6-B4C7-700953731EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445DE05F-C312-4CF6-B4C7-700953731EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E0521F-7F96-4868-86F7-9A76AF4A7FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E0521F-7F96-4868-86F7-9A76AF4A7FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E0521F-7F96-4868-86F7-9A76AF4A7FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E0521F-7F96-4868-86F7-9A76AF4A7FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A34BF4CB-2CBA-4C4B-A221-2BED67EDD8EC} = {3C2F1242-E7AE-4E69-9DFB-FFDE694CBE77}
+		{EB77EA00-6973-47D5-B3AB-267FAFECD11D} = {2E87E97F-BBC4-4B04-BD5A-52EBDF726172}
+		{445DE05F-C312-4CF6-B4C7-700953731EFA} = {5080326D-FA17-4146-9409-359B4605B323}
+		{69E0521F-7F96-4868-86F7-9A76AF4A7FDD} = {E18246C1-CE15-4FB8-B9BE-0EDA30B41D02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71592AA1-B825-44AA-B76D-FB8D9C7DA9C4}
+	EndGlobalSection
+EndGlobal
